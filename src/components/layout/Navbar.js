@@ -5,14 +5,14 @@ import { NavLink } from "react-router-dom";
 export default function Navbarc() {
     return (
         <React.Fragment>
-            <h1 className="display-4 text-center mt-4">The Nice Developer</h1>
+            <h1 className="display-4 text-center mt-4"><b>The Nice Developer</b></h1>
             <Nav
             activeKey="/"
             onSelect={selectedKey => alert(`selected ${selectedKey}`)}
             className="justify-content-center"
         >
             <Nav.Item>
-                <NavLink to="/" className="m-2 lead text-info"> <b>Home</b> </NavLink>
+                <NavLink to="/" className="mx-2 lead text-info"> <b>Home</b> </NavLink>
             </Nav.Item>
             
             <Nav.Item className="lead">
@@ -20,7 +20,7 @@ export default function Navbarc() {
             </Nav.Item>
             
             <Nav.Item>
-                <NavLink to="/about" className="m-2 lead text-info"> <b>About</b> </NavLink>
+                <NavLink to="/about" className="mx-2 lead text-info"> <b>About</b> </NavLink>
             </Nav.Item>            
             
         </Nav>

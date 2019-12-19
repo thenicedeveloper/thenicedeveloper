@@ -6,7 +6,7 @@ export default function About() {
         <Row className="m-2 no-gutters mb-4">
           <Col className="mx-auto" md="6"> 
             <div className="display-4 text-warning ">
-                Comming soon....
+                Coming soon....
             </div>
             </Col>
         </Row>
