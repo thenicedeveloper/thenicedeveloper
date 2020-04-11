@@ -15,7 +15,7 @@ export default function Main() {
                 <p>
                 This channel is for those interested in Web Development. 
                 We will build websites, and work on projects using on demand technology like React and Nodejs. 
-                We will use the AWS Cloud computing platform to build most of our apps. All you need is your motivation!
+                We will use the AWS Cloud computing platform to build most of our apps. To join us, your motivation is required....
                 </p> 
 
                 <div className="lead">Join our Meetup Group: 
